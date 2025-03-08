@@ -1,0 +1,13 @@
+requirements = """pandas
+numpy
+matplotlib
+seaborn
+yake
+spacy
+nltk
+vaderSentiment
+scikit-learn
+"""
+
+with open("requirements.txt", "w") as f:
+    f.write(requirements)
